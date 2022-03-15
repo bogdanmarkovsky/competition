@@ -1,0 +1,15 @@
+.house-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: auto;
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+@media screen and (min-width: 544px) {
+  .house-list  {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+}

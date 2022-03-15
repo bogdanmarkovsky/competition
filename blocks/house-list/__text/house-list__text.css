@@ -1,0 +1,24 @@
+.house-list__text {
+  max-width: 588px;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  font-size: 18px;
+  line-height: 1.5;
+  color: #848FAC;
+  font-style: normal;
+  font-weight: 400;
+  margin-bottom: 32px;
+}
+
+@media screen and (max-width: 1023px) {
+  .house-list__text {
+    font-size: 15px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .house-list__text{
+    text-align:justify;
+  }
+}

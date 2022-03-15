@@ -1,0 +1,8 @@
+.reviews {
+  display: flex;
+  margin: auto;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 80px;
+  padding-bottom: 80px;
+}

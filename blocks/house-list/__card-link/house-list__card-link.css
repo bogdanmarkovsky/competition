@@ -1,0 +1,35 @@
+.house-list__card-link {
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 1.5;
+  color: #424F7B;
+  padding-top: 32px;
+  transition-property: opacity;
+  transition-duration: 1.5s;
+  transition-timing-function: ease;
+}
+
+.house-list__card-link:hover {
+  opacity: 0.5;
+}
+
+@media screen and (max-width: 1023px) {
+  .house-list__card-link    {
+    font-size: 15px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .house-list__card-link   {
+    justify-self: flex-end;
+    padding: 0;
+  }
+}
+
+@media screen and (max-width: 543px) {
+  .house-list__card-link   {
+    padding-top: 10px;
+  }
+}

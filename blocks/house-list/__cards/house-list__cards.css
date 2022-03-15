@@ -1,0 +1,16 @@
+.house-list__cards {
+  margin: 0;
+  padding: 0;
+  padding-top: 90px;
+  display: flex;
+  list-style: none;
+  gap: 24px;
+  width: 100%;
+}
+
+@media screen and (max-width: 767px) {
+  .house-list__cards {
+    flex-direction: column;
+    padding-top: 60px;
+  }
+}

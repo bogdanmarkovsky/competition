@@ -1,0 +1,23 @@
+.house-list__card-text {
+  margin: 0;
+  padding: 0;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.5;
+  color: #848FAC;
+  padding-top: 16px;
+  height: 100%;
+}
+
+@media screen and (max-width: 1023px) {
+  .house-list__card-text   {
+    font-size: 15px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .house-list__card-text  {
+    width: 100%;
+  }
+}

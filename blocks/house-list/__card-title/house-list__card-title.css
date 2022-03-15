@@ -1,0 +1,31 @@
+.house-list__card-title {
+  margin: 0;
+  padding: 0;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 1.5;
+  color: #000000;
+  padding-top: 32px;
+}
+
+@media screen and (max-width: 1023px) {
+  .house-list__card-title   {
+    font-size: 20px;
+    padding: 0;
+    padding-top: 10px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .house-list__card-title   {
+    padding: 0;
+  }
+}
+
+@media screen and (max-width: 543px) {
+  .house-list__card-title   {
+    padding-top: 10px;
+  }
+}

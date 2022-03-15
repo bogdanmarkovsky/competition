@@ -1,0 +1,19 @@
+.intro__list {
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  height: 100%;
+}
+
+@media screen and (min-width:544px) {
+  .intro__list {
+    align-items: flex-start;
+    width: calc((100% - 30px)/2);
+  }
+}
+
+@media screen and (max-width:543px) {
+  .intro__list {
+    align-items: center;
+  }
+}

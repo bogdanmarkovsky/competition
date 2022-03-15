@@ -1,0 +1,12 @@
+.header {
+  margin: auto;
+  padding-top: 35px;
+  padding-bottom: 35px;
+}
+
+@media screen and (min-width: 544px) {
+  .header {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+}

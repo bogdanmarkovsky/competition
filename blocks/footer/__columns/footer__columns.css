@@ -1,0 +1,21 @@
+.footer__columns {
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+
+@media screen and (max-width: 1023px) {
+  .footer__columns {
+    flex-direction: column-reverse;
+    gap: 50px;
+  }
+}
+
+@media screen and (min-width: 544px) {
+  .footer__columns {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+}

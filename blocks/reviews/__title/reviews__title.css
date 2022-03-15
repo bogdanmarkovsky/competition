@@ -1,0 +1,17 @@
+.reviews__title {
+  margin: 0;
+  padding: 0;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-size: 600;
+  line-height: 1.5;
+  font-size: 36px;
+  color: #192252;
+  margin-bottom: 62px;
+}
+
+@media screen and (max-width: 1023px) {
+  .reviews__title   {
+    font-size: 30px;
+  }
+}

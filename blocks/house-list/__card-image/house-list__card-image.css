@@ -1,0 +1,15 @@
+.house-list__card-image {
+  width: 100%;
+}
+
+@media screen and (min-width: 544px) and (max-width: 767px) {
+  .house-list__card-image  {
+    width: 55%;
+  }
+}
+
+@media screen and (max-width: 543px) {
+  .house-list__card-image  {
+    width: 80%;
+  }
+}
