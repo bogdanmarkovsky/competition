@@ -1,0 +1,22 @@
+.house-list__card-content {
+  display: flex;
+  flex-direction: column;
+}
+
+@media screen and (min-width:768px) {
+  .house-list__card-content {
+    height: 100%;
+  }
+}
+
+@media screen and (min-width: 544px) and (max-width: 767px) {
+  .house-list__card-content {
+    width: calc(45% - 16px);
+  }
+}
+
+@media screen and (max-width: 543px) {
+  .house-list__card-content {
+    width: 80%;
+  }
+}

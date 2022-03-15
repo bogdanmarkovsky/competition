@@ -1,0 +1,12 @@
+.footer__brand-slogan {
+  margin: 0;
+  padding: 0;
+  max-width: 186px;
+  font-style: normal;
+  font-size: 16px;
+  line-height: 1.75;
+  font-weight: 400;
+  color: #D9DBDE;
+  padding-top: 13px;
+  padding-bottom: 36px;
+}

@@ -1,0 +1,21 @@
+.intro {
+  display: flex;
+  margin: auto;
+  padding-top: 80px;
+  padding-bottom: 80px;
+  justify-content: space-between;
+  gap: 30px;
+}
+
+@media screen and (min-width:544px) {
+  .intro {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+}
+
+@media screen and (max-width: 543px) {
+  .intro {
+    flex-direction: column-reverse;
+  }
+}

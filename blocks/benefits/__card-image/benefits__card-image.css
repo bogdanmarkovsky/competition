@@ -1,0 +1,9 @@
+.benefits__card-image {
+  object-fit: contain;
+}
+
+@media screen and (max-width: 767px) {
+  .benefits__card-image {
+    max-height: 500px;
+  }
+}

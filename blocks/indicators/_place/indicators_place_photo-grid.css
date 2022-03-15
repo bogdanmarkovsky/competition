@@ -1,0 +1,25 @@
+.indicators_place_photo-grid {
+  position: absolute;
+  left: 37%;
+  bottom: 3%;
+}
+
+@media screen and (max-width: 1023px) {
+  .indicators_place_photo-grid {
+    left: 47%;
+    bottom: 23%;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .indicators_place_photo-grid {
+    bottom: 22%;
+  }
+}
+
+@media screen and (max-width: 543px) {
+  .indicators_place_photo-grid {
+    left:45%;
+    bottom: 10px;
+  }
+}

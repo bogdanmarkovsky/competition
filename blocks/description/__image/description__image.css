@@ -1,0 +1,9 @@
+.description__image {
+  object-fit: contain;
+}
+
+@media screen and (max-width: 767px) {
+  .description__image {
+    max-height: 600px;
+  }
+}

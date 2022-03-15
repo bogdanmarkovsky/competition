@@ -1,0 +1,9 @@
+.footer__column-items {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  gap: 24px;
+  padding-top: 24px;
+}

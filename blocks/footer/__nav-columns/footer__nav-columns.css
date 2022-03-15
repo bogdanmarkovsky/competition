@@ -1,0 +1,19 @@
+.footer__nav-columns {
+  display: flex;
+  gap: 50px;
+}
+
+@media screen and (max-width: 1023px) {
+  .footer__nav-columns {
+    gap: 0;
+    justify-content: space-between;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .footer__nav-columns {
+    flex-direction: column;
+    gap: 50px;
+    justify-content: space-between;
+  }
+}

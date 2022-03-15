@@ -1,0 +1,26 @@
+.benefits__card {
+  display: flex;
+  flex-direction: row;
+  gap: 126px;
+}
+
+@media screen and (min-width: 768px) {
+  .benefits__card:nth-child(2) {
+    flex-direction: row-reverse;
+  }
+  .benefits__card:nth-child(2) .benefits__card-content {
+    text-align: right;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .benefits__card {
+    gap: 42px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .benefits__card {
+    flex-direction: column;
+  }
+}

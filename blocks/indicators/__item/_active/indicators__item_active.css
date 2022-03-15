@@ -1,0 +1,6 @@
+.indicators__item_active {
+  width: 12px;
+  height: 12px;
+  background-color: #FAB047;
+  opacity: 1;
+}

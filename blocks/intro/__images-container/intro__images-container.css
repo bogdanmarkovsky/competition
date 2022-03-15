@@ -1,0 +1,5 @@
+@media screen and (min-width: 544px) {
+  .intro__images-container{
+    width: calc((100% - 30px)/2);
+  }
+}
